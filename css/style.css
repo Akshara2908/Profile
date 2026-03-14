@@ -2209,3 +2209,51 @@ body.offcanvas .colorlib-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -3em;
+  left: 0.5rem;
+  z-index: 10000;
+  padding: 0.5rem 1rem;
+  background: #2c3e50;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0 0 4px 0;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Open to roles callout - stands out for recruiters */
+.open-to-callout {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(52, 152, 219, 0.08);
+  border-left: 4px solid #3498db;
+  border-radius: 0 4px 4px 0;
+  font-size: 1rem;
+}
+
+/* Impact stats - clean, scannable metrics */
+.impact-stats {
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+}
+.impact-stat {
+  margin-bottom: 1rem;
+}
+.impact-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: #2c3e50;
+}
+.impact-label {
+  font-size: 0.9rem;
+  margin: 0.25rem 0 0;
+  color: #7f8c8d;
+}
